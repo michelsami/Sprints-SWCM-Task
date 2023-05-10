@@ -1,0 +1,7 @@
+In Scrum Agile, the Definition of Ready and the Definition of Done are important concepts that help ensure that a team is working effectively and efficiently.
+
+The Definition of Ready (DoR) is a shared understanding among the team of what is necessary for a Product Backlog Item (PBI) to be considered ready to be worked on during a Sprint. It specifies the criteria that must be met before a PBI can be pulled into a Sprint. This includes factors like a clear description of the PBI, acceptance criteria, and any dependencies or pre-requisites that must be met before work can begin.
+
+The Definition of Done (DoD) is a shared understanding among the team of what it means for a PBI to be considered "done" or complete. It defines the quality standards that must be met for a PBI to be considered complete, such as functional requirements, performance requirements, and user acceptance criteria. It also includes non-functional requirements such as code quality, documentation, and testing.
+
+Both the DoR and the DoD are important because they help to ensure that the team is working efficiently and effectively, and that everyone is on the same page about what needs to be done to deliver high-quality work. By having a clear DoR, the team can avoid wasting time on items that are not well-defined or prepared, while the DoD ensures that the team is delivering work that meets the agreed-upon quality standards.
