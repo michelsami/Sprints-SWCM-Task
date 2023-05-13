@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="background-color: #2f4f4f">
+    <form>
+      <fieldset style="background-color: #2e6e6e">
+        <legend style="background-color: #5f9ea0">Personal Data</legend>
+        <fieldset style="background-color: #5f9ea0">
+          <legend
+            style="background-color: #3e858b; height: 50px; display: table"
+          >
+            <div style="display: table-cell; vertical-align: middle">
+              Your Name
+            </div>
+          </legend>
+          <br />
+          <br />
+          <div style="width: 150px; display: inline-block">
+            <label for="firstName">First Name</label>
+          </div>
+          : <input type="text" id="firstName" placeholder="ex: Michel" />
+          <br />
+          <br />
+          <div style="width: 150px; display: inline-block">
+            <label for="lastName">Last Name</label>
+          </div>
+          : <input type="text" id="lastName" placeholder="ex: Sami" />
+        </fieldset>
+
+        <br />
+        <div style="width: 150px; display: inline-block">
+          <label for="phoneNumber">Phone Number</label>
+        </div>
+        : <input type="tel" id="phoneNumber" placeholder="ex: 012 3456 876" />
+        <br />
+        <br />
+        <div style="width: 150px; display: inline-block">
+          <label for="email">Email</label>
+        </div>
+        : <input type="email" id="email" placeholder="ex: email@gmail.com" />
+
+        <br />
+        <br />
+        <div style="width: 150px; display: inline-block">
+          <label for="password">Password</label>
+        </div>
+        : <input type="password" id="password" />
+        <br />
+        <br />
+        <div style="width: 150px; display: inline-block">
+          <label for="re-password">re-Password</label>
+        </div>
+        : <input type="password" id="re-password" />
+        <br />
+        <br />
+        <input type="radio" id="male" value="male" name="gender" />
+          <label for="male">Male</label><br />
+        <input type="radio" id="female" value="female" name="gender" />  
+        <label for="female">Female</label><br /><br />
+
+        <input type="checkbox" id="student" name="student" value="student" />
+        <label for="student">Student</label><br />
+        <input
+          type="checkbox"
+          id="graduated"
+          name="graduated"
+          value="graduated"
+        />
+        <label for="graduated">Graduated</label><br /><br />
+
+        <label for="university">University : </label>
+        <input list="listOfUniversities" name="university" id="university" />
+
+        <datalist id="listOfUniversities">
+          <option value="AUC"></option>
+          <option value="GUC"></option>
+          <option value="Cairo university"></option>
+          <option value="PYC"></option>
+        </datalist>
+        <br /><br />
+
+        <button
+          type="submit"
+          style="
+            background-color: black;
+            color: white;
+            font-size: larger;
+            border-radius: 5px;
+          "
+        >
+          Submit
+        </button>
+      </fieldset>
+    </form>
+  </body>
+</html>
