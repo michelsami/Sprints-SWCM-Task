@@ -1,0 +1,81 @@
+.main-header {
+	height: auto;
+	background-color: #3d464d;
+}
+
+
+body {
+	margin: 0;
+}
+
+
+.categories-box {
+	width: 25%;
+	height: 100%;
+	background-color: #ffd334;
+	display: inline-block;
+	margin-left: 5%;
+}
+
+.categories-drop-down-menu,
+.icons {
+	display: inline-block;
+}
+
+.categories-drop-down-menu-with-icons {
+	padding: 2% 10%;
+	position: relative;
+	padding-left: 5%;
+}
+
+.main-header {
+
+	position: relative;
+}
+
+.fa-chevron-down {
+	position: absolute;
+	right: 0;
+	padding: 4%;
+
+}
+
+.icons {
+	position: absolute;
+	right: 0;
+	padding: 2%;
+
+}
+
+
+.list-of-pages,
+.list-of-pages ul {
+	display: inline;
+
+}
+
+.list-of-pages li {
+	display: inline;
+	color: white;
+	margin: 0px 1%;
+}
+
+
+.fa-heart,
+.fa-cart-shopping {
+	color: #ffd334;
+}
+
+
+.circle {
+	display: inline-block;
+	border-radius: 50%;
+	width: 17px;
+	height: 17px;
+	padding: 1px;
+
+	border: 1px solid white;
+	color: white;
+	text-align: center;
+	font: 14px Arial, sans-serif;
+}
