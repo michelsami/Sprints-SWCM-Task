@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      input {
+        margin: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <label>Enter the first Number</label>
+    <input type="number" id="firstNumber" />
+    <br />
+    <label>Choose the operator</label>
+    <select id="operator">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="/">/</option>
+      <option value="*">*</option>
+    </select>
+    <br />
+    <label>Enter the second Number</label>
+    <input type="number" id="secondNumber" />
+    <br />
+    <br />
+
+    <button onclick="sumFunction()">Click to see the results</button>
+    <input type="number" id="result" disabled />
+    <script src="./script.js"></script>
+  </body>
+</html>
