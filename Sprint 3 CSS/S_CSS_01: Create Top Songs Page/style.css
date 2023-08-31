@@ -1,0 +1,170 @@
+body {
+	background-color: #532a7f;
+	font-family: "Archivo", sans-serif;
+
+}
+
+
+.mainText {
+	justify-content: center;
+	align-items: center;
+	height: 10vh;
+	margin: 20px;
+	margin-bottom: 40px;
+	padding: 10px;
+	display: inline-block;
+
+}
+
+
+
+p {
+	font-family: "Archivo", sans-serif;
+
+	color: aliceblue;
+	text-align: center;
+}
+
+.headmain {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10vh;
+
+}
+
+
+
+h1 {
+	font-family: "Archivo", sans-serif;
+
+	color: aliceblue;
+}
+
+
+
+
+.main.hidden {
+	display: none;
+}
+
+.main {
+	width: 620px;
+	height: auto;
+	overflow: auto;
+	background-color: #532a7f;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid white;
+}
+
+.hidden {
+	width: 620px;
+	height: auto;
+	overflow: auto;
+	background-color: aquamarine;
+	margin-left: auto;
+	margin-right: auto;
+	display: none;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.sub-div {
+	width: 300px;
+	margin: 5px;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: left;
+	line-height: 10px;
+	font-size: 50px;
+}
+
+.sub-div2 {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	color: azure;
+	padding: auto;
+	box-sizing: border-box;
+	background-color: blueviolet;
+	text-align: center;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 20px;
+	margin: 5px;
+
+}
+
+.text {
+	color: #EFEFEF;
+	font-size: 22px;
+	display: inline-block;
+}
+
+.hidden {
+	display: none;
+}
+
+
+
+
+
+
+.center-container {
+	justify-content: center;
+	align-items: center;
+	height: 10vh;
+}
+
+
+
+#toggleButton {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #EFEFEF;
+	width: 100px;
+	height: 2cm;
+
+	font-size: 20px;
+	margin-bottom: 20px;
+
+}
+
+
+.button-container {
+	margin: auto;
+	width: 200px;
+}
+
+
+
+.center-container2 {
+	bottom: 20px;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	height: 10px;
+	background-color: aqua;
+}
+
+.button-container2 {
+	background-color: black;
+
+}
+
+#showButton {
+	background-color: #eee7e7;
+	width: 100px;
+	height: 30px;
+
+	font-size: 20px;
+	color: rgb(15, 12, 12);
+	font-size: 15px;
+
+
+}
