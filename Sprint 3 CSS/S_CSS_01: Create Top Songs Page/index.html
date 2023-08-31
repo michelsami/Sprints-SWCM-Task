@@ -1,1 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="headmain">
+      <div class="headcont"><h1 class="head">Top 10 Songs</h1></div>
+    </div>
 
+    <div class="mainText">
+      <p class="mainTextChild">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, esse!
+        Illum rem numquam nemo saepe eum natus, dolorum adipisci. Iste deserunt
+        totam placeat quae consectetur amet unde tempora eaque, animi id saepe
+        impedit similique atque aliquam cumque voluptas. Deserunt impedit harum
+        beatae esse porro nisi minima in, perspiciatis expedita tempora. Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Sed, officiis
+        incidunt qui ut nisi explicabo ipsum? Explicabo ab voluptatem quam
+        possimus libero ut! Natus, voluptas! Assumenda ab error in doloribus. A
+        praesentium iste exercitationem doloribus! Impedit dolorem ut culpa non,
+        perferendis iste ipsa eum soluta! Error saepe temporibus vero ipsum!
+      </p>
+    </div>
+
+    <div class="center-container">
+      <div class="button-container">
+        <button id="toggleButton">Show Me</button>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="row">
+        <div class="sub-div">
+          <div class="sub-div2">#1</div>
+          <p class="text">Time to Pretend</p>
+        </div>
+        <div class="sub-div">
+          <div class="sub-div2">#2</div>
+          <p class="text">O-o-oh Child</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="sub-div">
+          <div class="sub-div2">#3</div>
+          <p class="text">Wish You Were Here</p>
+        </div>
+        <div class="sub-div">
+          <div class="sub-div2">#4</div>
+          <p class="text">Heroes</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="sub-div">
+          <div class="sub-div2">#5</div>
+          <p class="text">I Put a Spell on You</p>
+        </div>
+        <div class="sub-div">
+          <div class="sub-div2">#6</div>
+          <p class="text">Call Me</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="sub-div">
+          <div class="sub-div2">#7</div>
+          <p class="text">Paper Planes</p>
+        </div>
+        <div class="sub-div">
+          <div class="sub-div2">#8</div>
+          <p class="text">Jolene</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="sub-div">
+          <div class="sub-div2">#9</div>
+          <p class="text">You Don't Own Me</p>
+        </div>
+        <div class="sub-div">
+          <div class="sub-div2">#10</div>
+          <p class="text">Fast Car</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="sub-div">
+          <div class="sub-div2">#11</div>
+          <p class="text">Run the World (Girls)</p>
+        </div>
+        <div class="sub-div">
+          <div class="sub-div2">#12</div>
+          <p class="text">Superstition</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="center-container2">
+      <div class="button-container2">
+        <button id="showButton" class="show-button">RESTORE</button>
+      </div>
+    </div>
+
+    <script>
+      const toggleButton = document.getElementById("toggleButton");
+      const mainDiv = document.querySelector(".main");
+      const showButton = document.getElementById("showButton");
+
+      mainDiv.classList.add("hidden");
+      toggleButton.classList.remove("hidden");
+
+      toggleButton.addEventListener("click", function () {
+        mainDiv.classList.remove("hidden");
+        toggleButton.classList.add("hidden");
+        showButton.style.display = "block";
+      });
+
+      showButton.addEventListener("click", function () {
+        mainDiv.classList.add("hidden");
+        toggleButton.classList.remove("hidden");
+        showButton.style.display = "none";
+      });
+    </script>
+  </body>
+</html>
